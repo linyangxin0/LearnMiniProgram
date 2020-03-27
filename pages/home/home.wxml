@@ -1,26 +1,22 @@
-<!--pages/home/home.wxml-->
-<button>按钮</button>
-
-<!-- mini属性的使用 -->
-<button size="mini">按钮</button>
-<button size="mini">按钮</button>
-
-
-<!-- type的使用 -->
-<button size="mini" type="primary">按钮</button>
-<button size="mini" type="default">按钮</button>
-<button size="mini" type="warn">按钮</button>
-
-
-<!-- plain镂空效果 -->
-<button size="mini" plain>按钮</button>
-
-<!-- disable不可用 -->
-<button size="mini" disabled>按钮</button>
-
-<!-- loading -->
-<button loading>按钮</button>
+<!-- view的基本使用 -->
+<view>hahhahahaha</view>
 
 <!-- hover-class -->
-<button hover-class="pressed">按钮</button>
+<view hover-class="pressed" hover-start-time="1000">点击</view>
+
+<!-- hover-stop-propagation阻止祖先元素的点击态 -->
+
+
+<!-- image的基本使用 -->
+<image src="/assets/images/image.jpeg" bindtap="handleChooseAlbum"></image>
+<image src="{{imageURL}}"></image>
+
+<!-- bindload:监听图片加载完成 -->
+<image bindload="handImageLoad" src="/assets/images/image.jpeg"></image>
+
+<!-- 图片懒加载 -->
+
+
+<image src="/assets/images/image.jpeg" show-menu-by-longpress="true"></image>
+
 
