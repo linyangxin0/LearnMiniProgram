@@ -1,3 +1,15 @@
 <!--pages/home/home.wxml-->
-<text>Hello Word</text>
-<open-data type="userNickName"></open-data>
+<text>Hello Word\n</text>
+
+<!-- 添加selectable属性，可以让文本可选中 -->
+<text selectable="true">Hello Word\n</text>
+
+<!-- 3、space决定本空格的大小 -->
+<text>Hello Word\n</text>
+<text space="nbsp">Hello Word\n</text>
+<text space="emsp">Hello Word\n</text>
+<text space="ensp">Hello Word\n</text>
+
+<!-- 4、decode属性，是否解码 -->
+<text decode>5 &gt;</text>
+
