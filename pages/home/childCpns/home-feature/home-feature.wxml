@@ -1,0 +1,4 @@
+<!--pages/home/childCpns/home-feature/home-feature.wxml-->
+<view>
+  <image src="/assets/images/home/recommend_bg.jpg" class="item-image" mode='widthFix'></image>
+</view>

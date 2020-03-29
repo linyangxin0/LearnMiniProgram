@@ -1,7 +1,7 @@
 <!--pages/home/home.wxml-->
 <w-swiper list="{{banners}}"/>
 <home-recommends recommends="{{recommends}}"/>
-
+<home-feature/>
 
 <tab-control title="{{['流行','新款','精选']}}"/>
 

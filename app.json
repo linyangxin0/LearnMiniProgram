@@ -5,7 +5,8 @@
     "pages/cart/cart",
     "pages/profile/profile",
     "pages/detail/detail",
-    "pages/home/childCpns/home-recommends/home-recommends"
+    "pages/home/childCpns/home-recommends/home-recommends",
+    "pages/home/childCpns/home-feature/home-feature"
   ],
   "window": {
     "navigationBarBackgroundColor": "#ff5777",
@@ -20,26 +21,26 @@
       {
         "pagePath": "pages/home/home",
         "text": "首页",
-        "iconPath": "assets/tabbar/shopping.png",
-        "selectedIconPath": "assets/tabbar/shopping_active.png"
+        "iconPath": "assets/images/tabbar/shopping.png",
+        "selectedIconPath": "assets/images/tabbar/shopping_active.png"
       },
       {
         "pagePath": "pages/category/category",
         "text": "分类",
-        "iconPath": "assets/tabbar/category.png",
-        "selectedIconPath": "assets/tabbar/category_active.png"
+        "iconPath": "assets/images/tabbar/category.png",
+        "selectedIconPath": "assets/images/tabbar/category_active.png"
       },
       {
         "pagePath": "pages/cart/cart",
         "text": "购物车",
-        "iconPath": "assets/tabbar/cart.png",
-        "selectedIconPath": "assets/tabbar/cart_active.png"
+        "iconPath": "assets/images/tabbar/cart.png",
+        "selectedIconPath": "assets/images/tabbar/cart_active.png"
       },
       {
         "pagePath": "pages/profile/profile",
         "text": "我的",
-        "iconPath": "assets/tabbar/person.png",
-        "selectedIconPath": "assets/tabbar/person_active.png"
+        "iconPath": "assets/images/tabbar/person.png",
+        "selectedIconPath": "assets/images/tabbar/person_active.png"
       }
     ],
     "selectedColor": "#ff5777"

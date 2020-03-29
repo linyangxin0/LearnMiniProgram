@@ -1,0 +1,5 @@
+/* pages/home/childCpns/home-feature/home-feature.wxss */
+
+.item-image{
+  width: 100%;
+}

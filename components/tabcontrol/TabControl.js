@@ -22,7 +22,6 @@ Component({
    */
   methods: {
     itemClick(event){
-      console.log(event.target.dataset.index);
       this.setData({
         currentIndex : event.target.dataset.index
       })
