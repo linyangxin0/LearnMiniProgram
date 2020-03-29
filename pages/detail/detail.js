@@ -1,30 +1,18 @@
-// pages/home/home.js
-
-import {getMultiData} from '../../service/home.js'
-
+// pages/detail/detail.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    banners:[],
-    recommends:[]
+
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    getMultiData().then(res=>{
-      const banners = res.data.data.banner.list;
-      const recommends = res.data.data.recommend.list;
-      this.setData({
-        banners : banners,
-        recommends : recommends
-      })
-      
-    })
+
   },
 
   /**

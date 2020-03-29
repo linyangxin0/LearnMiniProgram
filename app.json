@@ -3,7 +3,9 @@
     "pages/home/home",
     "pages/category/category",
     "pages/cart/cart",
-    "pages/profile/profile"
+    "pages/profile/profile",
+    "pages/detail/detail",
+    "pages/home/childCpns/home-recommends/home-recommends"
   ],
   "window": {
     "navigationBarBackgroundColor": "#ff5777",
@@ -42,5 +44,5 @@
     ],
     "selectedColor": "#ff5777"
   },
-  "sitemapLocation": "sitemap21.json"
+  "sitemapLocation": "sitemap.json"
 }

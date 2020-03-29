@@ -1,6 +1,7 @@
 {
   "usingComponents": {
-    "my-cpn":"/components/my-cpn/mycpn",
-    "my-prop":"/components/my-prop/my-prop"
+    "tab-control":"/components/tabcontrol/TabControl",
+    "w-swiper":"/components/w-swiper/w-swiper",
+    "home-recommends":"/pages/home/childCpns/home-recommends/home-recommends"
   }
 }

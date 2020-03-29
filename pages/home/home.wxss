@@ -1,8 +1,1 @@
 /* pages/home/home.wxss */
-.pressed{
-  background-color: bisque;
-}
-
-.red{
-  color: red;
-}

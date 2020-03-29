@@ -1,5 +1,8 @@
-<!-- 自定义组件的基本使用 -->
-<my-cpn></my-cpn>
-<my-prop title="呵呵呵" title-class="red"/>
-<my-prop title="hahah"/>
-<my-prop/>
+<!--pages/home/home.wxml-->
+<w-swiper list="{{banners}}"/>
+<home-recommends recommends="{{recommends}}"/>
+
+
+<tab-control title="{{['流行','新款','精选']}}"/>
+
+ 
