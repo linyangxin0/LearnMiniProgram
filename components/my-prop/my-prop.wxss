@@ -1,0 +1,5 @@
+/* components/my-prop/my-prop.wxss */
+
+.title{
+  color: 40rpx;
+}

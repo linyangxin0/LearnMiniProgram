@@ -1,22 +1,5 @@
-<!-- view的基本使用 -->
-<view>hahhahahaha</view>
-
-<!-- hover-class -->
-<view hover-class="pressed" hover-start-time="1000">点击</view>
-
-<!-- hover-stop-propagation阻止祖先元素的点击态 -->
-
-
-<!-- image的基本使用 -->
-<image src="/assets/images/image.jpeg" bindtap="handleChooseAlbum"></image>
-<image src="{{imageURL}}"></image>
-
-<!-- bindload:监听图片加载完成 -->
-<image bindload="handImageLoad" src="/assets/images/image.jpeg"></image>
-
-<!-- 图片懒加载 -->
-
-
-<image src="/assets/images/image.jpeg" show-menu-by-longpress="true"></image>
-
-
+<!-- 自定义组件的基本使用 -->
+<my-cpn></my-cpn>
+<my-prop title="呵呵呵" title-class="red"/>
+<my-prop title="hahah"/>
+<my-prop/>

@@ -2,3 +2,7 @@
 .pressed{
   background-color: bisque;
 }
+
+.red{
+  color: red;
+}
