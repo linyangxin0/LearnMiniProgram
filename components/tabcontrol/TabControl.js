@@ -23,8 +23,11 @@ Component({
   methods: {
     itemClick(event){
       this.setData({
-        currentIndex : event.target.dataset.index
+        currentIndex : event.currentTarget.dataset.index
       })
+
+      const data = {index: this.data.currentIndex}
+      this.triggerEvent('tabclick',data)
     }
   }
 })

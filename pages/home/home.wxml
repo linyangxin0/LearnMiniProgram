@@ -1,8 +1,20 @@
 <!--pages/home/home.wxml-->
-<w-swiper list="{{banners}}"/>
-<home-recommends recommends="{{recommends}}"/>
-<home-feature/>
 
-<tab-control title="{{['流行','新款','精选']}}"/>
+  <tab-control title="{{['流行','新款','精选']}}" 
+              bind:tabclick="tabclick" 
+              class="fixed" 
+              wx:if="{{isTabControlShow}}" />
+
+
+  <w-swiper list="{{banners}}"/>
+  <home-recommends recommends="{{recommends}}" bind:imageLoaded="imageLoaded"/>
+  <home-feature/>
+  <tab-control title="{{['流行','新款','精选']}}" bind:tabclick="tabclick" id="tab-control"/>
+  <w-goodslist goods="{{goods[currentType].list}}"/>
+
+
+<w-backtop wx:if="{{isBackTopShow}}"/>
+
+
 
  

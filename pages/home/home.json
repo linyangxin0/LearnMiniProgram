@@ -3,6 +3,8 @@
     "tab-control":"/components/tabcontrol/TabControl",
     "w-swiper":"/components/w-swiper/w-swiper",
     "home-recommends":"/pages/home/childCpns/home-recommends/home-recommends",
-    "home-feature":"/pages/home/childCpns/home-feature/home-feature"
+    "home-feature":"/pages/home/childCpns/home-feature/home-feature",
+    "w-goodslist":"/components/w-goodslist/w-goodslist",
+    "w-backtop":"/components/w-backtop/w-backtop"
   }
 }

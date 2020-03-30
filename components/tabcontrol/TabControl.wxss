@@ -2,6 +2,7 @@
 
 .content{
   display: flex;
+  background-color: #fff;
 }
 
 .item{
