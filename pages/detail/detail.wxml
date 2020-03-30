@@ -1,2 +1,11 @@
 <!--pages/detail/detail.wxml-->
-<text>pages/detail/detail.wxml</text>
+
+<detail-swiper list="{{topImages}}"/>
+<detail-baseinfo baseInfo="{{baseInfo}}"/>
+<detail-shopinfo shopInfo="{{shopInfo}}"/>
+<detail-goodsinfo detailInfo="{{detailInfo}}"/>
+<detail-paramsinfo paramInfo="{{paramInfo}}"/>
+<detail-comment commentInfo="{{commentInfo}}"/>
+<w-goodslist goods="{{recommends}}"/>
+
+<w-backtop wx:if="{{isBackTopShow}}"/>

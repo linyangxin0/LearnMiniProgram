@@ -1,0 +1,22 @@
+<!--pages/detail/childCpns/detail-comment/detail-comment.wxml-->
+
+<view class="content">
+  <view class="title">
+    <text class="title-left">用户评论</text>
+    <text class="title-right">更多{{'>'}}</text>
+  </view>
+  <view>
+    <image src="{{commentInfo.user.avatar}}" class="avatar"></image>
+    <text class="uname">{{commentInfo.user.uname}}</text>
+  </view>
+  <view>
+    <text class="comment">{{commentInfo.content}}</text>
+  </view>
+  <view class="detail">
+    <text class="created">{{commentInfo.created}}</text>
+    <text class="style">{{commentInfo.style}}</text>
+  </view>
+  <view wx:for="{{commentInfo.images}}" wx:key="index" class="comment-images">
+    <image src="{{item}}" class="image" mode="widthFix"></image>
+  </view>
+</view>

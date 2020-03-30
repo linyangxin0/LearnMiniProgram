@@ -1,0 +1,17 @@
+<!--pages/detail/childCpns/detail-paramsinfo/detail-paramsinfo.wxml-->
+<view class="content">
+  <view class="top">
+    <view wx:for="{{paramInfo.sizes[0]}}" wx:key="index" wx:for-item="y" class="top-item">
+      <view wx:for="{{y}}" wx:key="index" wx:for-item="x" class="item">
+        {{x}}
+      </view>
+    </view>
+  </view>
+  <view class="bottom">
+    <view wx:for="{{paramInfo.infos}}" wx:key="index" class="bottom-itme">
+      <text class="key">{{item.key}}</text>
+      <text class="value">{{item.value}}</text>
+    </view>
+  </view>
+</view>
+

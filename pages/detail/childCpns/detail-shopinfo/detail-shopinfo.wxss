@@ -1,0 +1,92 @@
+/* pages/detail/childCpns/detail-shopinfo/detail-shopinfo.wxss */
+.content{
+  padding: 50rpx 16rpx;
+  border-bottom: 5px solid #f2f5f8;
+}
+
+.shop-top{
+  height: 90rpx;
+}
+
+.shop-logo{
+  width: 90rpx;
+  height: 90rpx;
+  border-radius: 50%;
+}
+
+.shop-name{
+  margin-left: 30rpx;
+
+  color: #666;
+  font-size: 28rpx;
+  position: relative;
+  top: -35rpx;
+}
+
+.shop-center{
+  display: flex;
+}
+
+.left{
+  flex: 1;
+
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+
+  color: #666;
+  border-right: 1rpx solid #ccc;
+}
+
+.right{
+  flex: 1;
+  font-size: 26rpx;
+  margin-left: 20rpx;
+}
+
+.right-item{
+  display: flex;
+  text-align: center;
+  padding: 10rpx 0;
+}
+
+.name,.score,.is-better{
+  flex: 1;
+  color: #666;
+
+}
+
+.top{
+  margin-top: 30rpx;
+  font-size: 36rpx;
+}
+
+.bottom{
+  font-size: 24rpx;
+  margin-top: 10rpx;
+}
+
+
+
+.better{
+  color: #f13e3a;
+}
+
+.not-better{
+  color: #5ea732;
+}
+
+.shop-bottom{
+  text-align: center;
+  margin-top: 20rpx;
+}
+
+.shop-bottom-text{
+  display: inline-block;
+  width: 300rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  background-color: #f2f5f8;
+  font-size: 28rpx;
+  border-radius: 20rpx;
+}

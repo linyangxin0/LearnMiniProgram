@@ -1,0 +1,42 @@
+/* components/w-goodslistitem/w-goodslistitem.wxss */
+.content{
+  margin-top: 20rpx;
+}
+
+.item-img{
+  width: 100%;
+  border-radius: 10rpx;
+}
+
+.title{
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+
+  font-size: 28rpx;
+  color: #666;
+}
+
+.detail{
+  text-align: center;
+  height: 40rpx;
+  line-height: 40rpx;
+}
+
+.price,.cfav{
+  color: #ff8198;
+  font-size: 26rpx;
+}
+
+.icon{
+  position: relative;
+  top: 4rpx;
+
+  width: 16px;
+  height: 16px;
+}
+
+.price{
+  margin-right: 20rpx;
+}
+

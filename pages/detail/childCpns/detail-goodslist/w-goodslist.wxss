@@ -1,0 +1,20 @@
+/* components/w-goodslist/w-goodslist.wxss */
+
+.title{
+  font-size: 28rpx;
+  line-height: 80rpx;
+  height: 80rpx;
+  padding-left: 16rpx;
+  border-top: 5px solid #f2f5f8;
+}
+
+.content{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.goods-item{
+
+  width: 48%;
+}

@@ -1,3 +1,13 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "detail-swiper":"/pages/detail/childCpns/detail-swiper/detail-swiper",
+    "detail-baseinfo":"/pages/detail/childCpns/detail-baseinfo/detail-baseinfo",
+    "detail-shopinfo":"/pages/detail/childCpns/detail-shopinfo/detail-shopinfo",
+    "detail-goodsinfo":"/pages/detail/childCpns/detail-goodsinfo/detail-goodsinfo",
+    "detail-paramsinfo":"/pages/detail/childCpns/detail-paramsinfo/detail-paramsinfo",
+    "detail-comment":"/pages/detail/childCpns/detail-comment/detail-comment",
+    "w-goodslist":"/pages/detail/childCpns/detail-goodslist/w-goodslist",
+    "w-backtop":"/components/w-backtop/w-backtop"
+  },
+  "navigationBarTitleText": "商品详情"
 }

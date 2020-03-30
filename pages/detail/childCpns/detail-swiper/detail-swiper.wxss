@@ -1,0 +1,8 @@
+/* pages/detail/childCpns/detail-swiper/detail-swiper.wxss */
+.swiper{
+  height: 800rpx;
+}
+
+.item-img{
+  width: 100%;
+}
