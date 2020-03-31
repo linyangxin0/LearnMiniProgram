@@ -7,5 +7,6 @@
 <detail-paramsinfo paramInfo="{{paramInfo}}"/>
 <detail-comment commentInfo="{{commentInfo}}"/>
 <w-goodslist goods="{{recommends}}"/>
+<detail-bottombar/>
 
 <w-backtop wx:if="{{isBackTopShow}}"/>

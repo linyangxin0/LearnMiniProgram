@@ -1,13 +1,10 @@
-// components/w-goodslistitem/w-goodslistitem.js
+// pages/detail/childCpns/detail-bottombar/detail-bottombar.js
 Component({
   /**
    * 组件的属性列表
    */
   properties: {
-    goodsItem:{
-      type:Object,
-      value:{}
-    }
+
   },
 
   /**
@@ -21,5 +18,6 @@ Component({
    * 组件的方法列表
    */
   methods: {
+
   }
 })
