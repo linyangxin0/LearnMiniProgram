@@ -1,2 +1,2 @@
 <!--pages/cart.wxml-->
-<text>购物车</text>
+<cart-goodslist goodsList="{{goodsList}}"/>

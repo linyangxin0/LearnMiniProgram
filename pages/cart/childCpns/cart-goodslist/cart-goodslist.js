@@ -1,10 +1,13 @@
-// pages/detail/childCpns/detail-bottombar/detail-bottombar.js
+// pages/cart/childCpns/cart-goodslist/cart-goodslist.js
 Component({
   /**
    * 组件的属性列表
    */
   properties: {
-
+    goodsList:{
+      type:Array,
+      value:[]
+    }
   },
 
   /**
@@ -18,8 +21,6 @@ Component({
    * 组件的方法列表
    */
   methods: {
-    enterCart(){
-      this.triggerEvent("enterCart")
-    }
+
   }
 })

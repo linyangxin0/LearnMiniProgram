@@ -1,12 +1,18 @@
 <!--pages/detail/detail.wxml-->
 
-<detail-swiper list="{{topImages}}"/>
-<detail-baseinfo baseInfo="{{baseInfo}}"/>
-<detail-shopinfo shopInfo="{{shopInfo}}"/>
-<detail-goodsinfo detailInfo="{{detailInfo}}"/>
-<detail-paramsinfo paramInfo="{{paramInfo}}"/>
-<detail-comment commentInfo="{{commentInfo}}"/>
-<w-goodslist goods="{{recommends}}"/>
-<detail-bottombar/>
+  <scroll-view class="content" scroll-y="true">
+    <detail-swiper list="{{topImages}}"/>
+    <detail-baseinfo baseInfo="{{baseInfo}}"/>
+    <detail-shopinfo shopInfo="{{shopInfo}}"/>
+    <detail-goodsinfo detailInfo="{{detailInfo}}"/>
+    <detail-paramsinfo paramInfo="{{paramInfo}}"/>
+    <detail-comment commentInfo="{{commentInfo}}"/>
+    <w-goodslist goods="{{recommends}}"/>
 
-<w-backtop wx:if="{{isBackTopShow}}"/>
+    <!-- <w-backtop wx:if="{{isBackTopShow}}"/> -->
+  </scroll-view>
+
+  <detail-bottombar bind:enterCart="enterCart"/>
+
+
+

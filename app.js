@@ -1,5 +1,23 @@
 App({
 
+  data:{
+    goodsItemList:[]
+  },
+
+  onAddCart(goodsItem){
+    let isOld=false
+    for(let item of this.data.goodsItemList){
+      if(item.iid==goodsItem.iid){
+        isOld=true
+        item.count++
+      }
+    }
+    if(!isOld){
+      goodsItem.count=1
+      this.data.goodsItemList.push(goodsItem)
+    }
+  },
+
   /**
    * 当小程序初始化完成时，会触发 onLaunch（全局只触发一次）
    */

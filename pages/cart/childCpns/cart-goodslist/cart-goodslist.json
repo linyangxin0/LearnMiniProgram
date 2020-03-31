@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "cart-goodsitem":"/pages/cart/childCpns/cart-goodsitem/cart-goodsitem"
+  }
+}

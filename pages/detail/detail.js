@@ -1,5 +1,6 @@
 // pages/detail/detail.js
 import {getDetail,getRecommends,GoodsBaseInfo,ShopInfo,ParamInfo} from '../../service/detail.js'
+const app = getApp()
 
 Page({
 
@@ -7,7 +8,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    iid:'1m7rp9w',
+    iid:'',
     topImages: [],
     baseInfo: {},
     shopInfo: {},
@@ -15,16 +16,37 @@ Page({
     paramInfo: {},
     commentInfo: {},
     recommends: {},
-    isBackTopShow:false
+    isBackTopShow:false,
+    goodsItem:{}
+  },
+
+  enterCart(){
+
+    const obj = {}
+    obj.iid = this.data.iid;
+    obj.imageURL = this.data.topImages[0];
+    obj.title = this.data.baseInfo.title;
+    obj.desc = this.data.baseInfo.desc;
+    obj.price = this.data.baseInfo.realPrice;
+
+    this.setData({
+      goodsItem:obj
+    })
+    
+    app.onAddCart(this.data.goodsItem);
+
+    wx.showToast({
+      title: '加入购物车成功',
+    })
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    // this.setData({
-    //   iid:options.iid
-    // })
+    this.setData({
+      iid:options.iid
+    })
 
     this._getDetail();
     

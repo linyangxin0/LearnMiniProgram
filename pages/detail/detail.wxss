@@ -1,2 +1,18 @@
 /* pages/detail/detail.wxss */
+/* 
+.detail{
+  position: relative;
+} */
 
+.content{
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 120rpx;
+}
+
+
+/* .content{
+  height: calc(100% - 520rpx);
+} */

@@ -12,7 +12,7 @@
     <image src="/assets/images/detail/collect.png" class="image"></image>
     <view>收藏</view>
   </view>
-  <view class="right cart">
+  <view class="right cart" bindtap="enterCart">
     <text>加入购物车</text>
   </view>
   <view class="right buy">
