@@ -58,7 +58,6 @@ Page({
 
     // 2.请求的数据
     getSubcategory(maitkey).then(res => {
-      console.log(res);
       
       const tempCategoryData = this.data.categoryData;
       tempCategoryData[currentIndex].subcategories = res.data.data.list;

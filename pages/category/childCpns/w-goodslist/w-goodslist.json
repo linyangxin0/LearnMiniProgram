@@ -1,6 +1,6 @@
 {
   "component": true,
   "usingComponents": {
-    "w-goodslistitem":"/components/w-goodslistitem/w-goodslistitem"
+    "w-goodslistitem":"/pages/category/childCpns/w-goodslistitem/w-goodslistitem"
   }
 }
