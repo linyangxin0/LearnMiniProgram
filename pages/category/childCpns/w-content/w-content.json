@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+
+    "w-goodslist": "/pages/category/childCpns/w-goodslist/w-goodslist"
+  }
+}

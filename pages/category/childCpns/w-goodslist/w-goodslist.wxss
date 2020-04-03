@@ -1,0 +1,12 @@
+/* components/w-goodslist/w-goodslist.wxss */
+
+.content{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.goods-item{
+
+  width: 48%;
+}
