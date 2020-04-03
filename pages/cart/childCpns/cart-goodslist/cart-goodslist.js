@@ -21,6 +21,9 @@ Component({
    * 组件的方法列表
    */
   methods: {
-
+    checkBottomClick(e){
+      const iid={iid:e.detail.iid}
+      this.triggerEvent('checkBottomClick',iid)
+    }
   }
 })

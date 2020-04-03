@@ -1,2 +1,6 @@
 <!--pages/cart.wxml-->
-<cart-goodslist goodsList="{{goodsList}}"/>
+<cart-goodslist goodsList="{{goodsList}}" bind:checkBottomClick="checkBottomClick"/>
+<cart-bottombar totalCounter="{{totalCounter}}" 
+                totalPrice="{{totalPrice}}" 
+                bind:bottomBarCheckClick="onSelectAll" 
+                isSelectAll="{{isSelectAll}}"/>

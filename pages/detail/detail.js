@@ -28,6 +28,7 @@ Page({
     obj.title = this.data.baseInfo.title;
     obj.desc = this.data.baseInfo.desc;
     obj.price = this.data.baseInfo.realPrice;
+    obj.isSelected = true
 
     this.setData({
       goodsItem:obj

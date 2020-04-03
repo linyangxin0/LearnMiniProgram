@@ -1,4 +1,5 @@
 // pages/cart/childCpns/cart-goodsitem/cart-goodsitem.js
+
 Component({
   /**
    * 组件的属性列表
@@ -7,14 +8,17 @@ Component({
     goodsItem:{
       type:Object,
       value:{}
+    },
+    isSelected:{
+      type:Boolean,
+      value:true
     }
   },
 
   /**
    * 组件的初始数据
    */
-  data: {
-    iconChecked:false
+  data: { 
   },
 
   /**
@@ -22,9 +26,8 @@ Component({
    */
   methods: {
     onCheckClick(){
-      this.setData({
-        iconChecked:!this.data.iconChecked
-      })
+      const iid = {iid:this.data.goodsItem.iid}
+      this.triggerEvent('checkBottomClick',iid)
     }
   }
 })

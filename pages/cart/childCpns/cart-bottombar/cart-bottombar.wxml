@@ -1,0 +1,14 @@
+<!--pages/cart/childCpns/cart-bottombar/cart-bottombar.wxml-->
+<view class="content">
+  <view class="left">
+    <w-check-icon bindtap='onCheckClick' isChecked="{{isSelectAll}}"/>
+    <text>全选</text>
+  </view>
+  <view class="center">
+    <text>总计：</text>
+    <text>￥{{totalPrice}}</text>
+  </view>
+  <view class="right">
+    <text>去结算({{totalCounter}})</text>
+  </view>
+</view>

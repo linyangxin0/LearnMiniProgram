@@ -1,0 +1,35 @@
+/* pages/cart/childCpns/cart-bottombar/cart-bottombar.wxss */
+.content{
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+
+  height: 80rpx;
+}
+
+.left{
+  flex: 1;
+  background-color: #eee;
+  
+  display: flex;
+  padding-top: 15rpx;
+  padding-left: 30rpx;
+}
+
+.center{
+  flex: 2;
+  background-color: #eee;
+  line-height: 80rpx;
+}
+
+.right{
+  flex: 1;
+  background-color: #f00;
+  color: #fff;
+  line-height: 80rpx;
+
+  text-align: center;
+
+}

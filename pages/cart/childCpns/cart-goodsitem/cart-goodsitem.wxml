@@ -1,10 +1,10 @@
 <!--pages/cart/childCpns/cart-goodsitem/cart-goodsitem.wxml-->
 <view class='cart-list-item'>
   <view class='item-icon'>
-    <w-check-icon bindtap='onCheckClick' isChecked="{{iconChecked}}"/>
+    <w-check-icon bindtap='onCheckClick' isChecked="{{isSelected}}"/>
   </view>
   <view class='item-img'>
-    <image src="{{goodsItem.imageURL}}" mode='aspectFill' class="iamge"/>
+    <image src="{{goodsItem.imageURL}}" mode='aspectFill' class="image"/>
   </view>
   <view class='item-info'>
     <view class='title'>{{goodsItem.title}}</view>
